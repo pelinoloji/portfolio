@@ -1,3 +1,43 @@
-img {
-  width: 80%;
+.HeaderImg {
+  height: 100%;
+  width: 100%;
+  background-image: url("headerImg.jpg");
 }
+
+.Header {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.BoldTitle {
+  position: absolute;
+  top: 15%;
+  left: 44%;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.Title {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  font-size: 18px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.icons {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 50px;
+  margin-left: 43%;
+}
+
+.icons a {
+  padding: 10px;
+}
+

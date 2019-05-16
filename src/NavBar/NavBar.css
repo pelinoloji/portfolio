@@ -1,0 +1,32 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.Container {
+  background-color:#1A1718;
+  height: 60px; 
+  /* overflow: hidden;
+  position: fixed; */
+  top: 0;
+  width: 100%;
+}
+
+.NavBar {
+  overflow: hidden;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.NavBar li {
+  text-decoration: none;
+  padding-top: 20px;
+  font-weight: 800;
+  font-size: 16px;
+  float: initial;
+  display: block;
+  text-align: center;
+
+}

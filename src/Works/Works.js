@@ -3,9 +3,6 @@ import "./Works.css";
 import dummyProject from "./dummyProject.png";
 
 function Works() {
-  const imageClick = () => {
-    console.log('Click');
-  } 
 
   return (
     <div className="Works">

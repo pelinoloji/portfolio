@@ -1,10 +1,11 @@
 import React from "react";
 import './NavBar.css';
 import { Link } from "react-router-dom";
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch, NavLink } from 'react-router-dom';
 
 
-function NavBar() {
+class NavBar extends React.Component {
+  render() {
   return (
     <Router>
       <div className="Container">
@@ -17,8 +18,8 @@ function NavBar() {
         </nav>
       </div>
     </Router>
-  );
+    );
+  }
 }
-
 export default NavBar;
 

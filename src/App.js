@@ -3,7 +3,7 @@ import "./App.css";
 import NavBar from "./NavBar/NavBar";
 import Header from "./Header/Header";
 import Works from "./Works/Works";
-
+import Contact from "./Contact/Contact";
 
 class App extends Component {
   render() {
@@ -12,6 +12,7 @@ class App extends Component {
         <NavBar />
         <Header />
         <Works />
+        <Contact />
       </div>
     );
   }

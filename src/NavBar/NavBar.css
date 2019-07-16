@@ -20,13 +20,16 @@
   align-items: center;
 }
 
+.NavBar ul {
+  display: block;
+  text-align: center;
+  float: initial;
+
+}
+
 .NavBar li {
   text-decoration: none;
   padding-top: 20px;
-  font-weight: 800;
-  font-size: 16px;
-  float: initial;
-  display: block;
-  text-align: center;
-
+  font-weight: 600;
+  font-size: 18px;
 }

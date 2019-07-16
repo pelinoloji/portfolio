@@ -11,7 +11,7 @@ class NavBar extends React.Component {
       <div className="Container">
         <nav className="NavBarContainer">
           <ul className='NavBar'>
-            <li><Link to="/Home">Home</Link></li>
+            <li><Link to="/">Home</Link></li>
             <li><Link to="/Projects">Projects</Link></li>
             <li><Link to="/Contact">Contact</Link></li>
           </ul>

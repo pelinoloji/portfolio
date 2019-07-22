@@ -16,9 +16,27 @@ class Header extends React.Component {
           humans.
         </p>
         <div className="icons">
-          <a href="https://github.com/pelinoloji" target="_blank"><i class="fab fa-github"></i></a>
-          <a href="https://www.freecodecamp.org/certification/pelinoloji/responsive-web-design" target="_blank"><i class="fab fa-free-code-camp"></i></a>
-          <a href="https://codepen.io/pelinoloji/" target="_blank"><i class="fab fa-codepen"></i></a>
+          <a
+            href="https://github.com/pelinoloji"
+            //target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-github" />
+          </a>
+          <a
+            href="https://www.freecodecamp.org/certification/pelinoloji/responsive-web-design"
+            //target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-free-code-camp" />
+          </a>
+          <a
+            href="https://codepen.io/pelinoloji/"
+            //target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fab fa-codepen" />
+          </a>
         </div>
       </div>
     );
